@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C0A304E-3CD8-4A0E-B167-10486636B2EB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>info.ipaw.pc3.PSLoadExecutable</RootNamespace>
+    <AssemblyName>info.ipaw.pc3.PSLoadExecutable</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>info.ipaw.pc3.PSLoadExecutable.Execute</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Execute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\info.ipaw.pc3.PSLoadWorkflow\info.ipaw.pc3.PSLoadWorkflow.csproj">
+      <Project>{F3C38F6B-C198-4246-B07E-EED13863552B}</Project>
+      <Name>PSLoadWorkflow</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LoadFile.bat" />
+    <None Include="LoadWorkflow.bat" />
+    <None Include="LoadWorkflowUnrolled.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\info.ipaw.pc3.PSLoadExecutable.exe" />
+    <Content Include="bin\info.ipaw.pc3.PSLoadExecutable.pdb" />
+    <Content Include="bin\info.ipaw.pc3.PSLoadWorkflow.exe" />
+    <Content Include="bin\info.ipaw.pc3.PSLoadWorkflow.pdb" />
+    <Content Include="README.txt" />
+    <Content Include="Sample\in\CSVRootPathInput.xml" />
+    <Content Include="Sample\in\JobIDInput.xml" />
+    <Content Include="Sample\out\CreateEmptyLoadDBOutput.xml" />
+    <Content Include="Sample\out\FileEntry0.xml" />
+    <Content Include="Sample\out\FileEntry1.xml" />
+    <Content Include="Sample\out\FileEntry2.xml" />
+    <Content Include="Sample\out\IsCSVReadyFileExistsOutput.xml" />
+    <Content Include="Sample\out\IsExistsCSVFileOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\IsExistsCSVFileOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\IsExistsCSVFileOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\IsLoadedCSVFileIntoTableOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\IsLoadedCSVFileIntoTableOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\IsLoadedCSVFileIntoTableOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\IsMatchCSVFileColumnNamesOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\IsMatchCSVFileColumnNamesOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\IsMatchCSVFileColumnNamesOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\IsMatchCSVFileTablesOutput.xml" />
+    <Content Include="Sample\out\IsMatchTableColumnRangesOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\IsMatchTableColumnRangesOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\IsMatchTableColumnRangesOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\IsMatchTableRowCountOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\IsMatchTableRowCountOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\IsMatchTableRowCountOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\IsUpdatedComputedColumnsOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\IsUpdatedComputedColumnsOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\IsUpdatedComputedColumnsOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\ReadCSVFileColumnNamesOutput_FileEntry0.xml" />
+    <Content Include="Sample\out\ReadCSVFileColumnNamesOutput_FileEntry1.xml" />
+    <Content Include="Sample\out\ReadCSVFileColumnNamesOutput_FileEntry2.xml" />
+    <Content Include="Sample\out\ReadCSVReadyFileOutput.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="info.ipaw.pc3.PSLoadWorkflow.LoadAppLogic$CSVFileEntry"> 
+  <void property="checksum"> 
+   <string>d0a45fb7b8cf6bc5d5f1a49bb6cbd697</string> 
+  </void> 
+  <void property="filePath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv</string> 
+  </void> 
+  <void property="headerPath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv.hdr</string> 
+  </void> 
+  <void property="rowCount"> 
+   <int>1</int> 
+  </void> 
+  <void property="targetTable"> 
+   <string>P2FrameMeta</string> 
+  </void> 
+ </object> 
+</java> 

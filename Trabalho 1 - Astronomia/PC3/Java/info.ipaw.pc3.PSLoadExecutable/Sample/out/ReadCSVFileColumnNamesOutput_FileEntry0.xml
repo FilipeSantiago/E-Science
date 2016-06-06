@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="info.ipaw.pc3.PSLoadWorkflow.LoadAppLogic$CSVFileEntry"> 
+  <void property="checksum"> 
+   <string>d0a45fb7b8cf6bc5d5f1a49bb6cbd697</string> 
+  </void> 
+  <void property="columnNames"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>frameID</string> 
+    </void> 
+    <void method="add"> 
+     <string>surveyID</string> 
+    </void> 
+    <void method="add"> 
+     <string>filterID</string> 
+    </void> 
+    <void method="add"> 
+     <string>cameraID</string> 
+    </void> 
+    <void method="add"> 
+     <string>telescopeID</string> 
+    </void> 
+    <void method="add"> 
+     <string>analysisVer</string> 
+    </void> 
+    <void method="add"> 
+     <string>p1Recip</string> 
+    </void> 
+    <void method="add"> 
+     <string>p2Recip</string> 
+    </void> 
+    <void method="add"> 
+     <string>p3Recip</string> 
+    </void> 
+    <void method="add"> 
+     <string>nP2Images</string> 
+    </void> 
+    <void method="add"> 
+     <string>astroScat</string> 
+    </void> 
+    <void method="add"> 
+     <string>photoScat</string> 
+    </void> 
+    <void method="add"> 
+     <string>nAstRef</string> 
+    </void> 
+    <void method="add"> 
+     <string>nPhoRef</string> 
+    </void> 
+    <void method="add"> 
+     <string>expStart</string> 
+    </void> 
+    <void method="add"> 
+     <string>expTime</string> 
+    </void> 
+    <void method="add"> 
+     <string>airmass</string> 
+    </void> 
+    <void method="add"> 
+     <string>raBore</string> 
+    </void> 
+    <void method="add"> 
+     <string>decBore</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="filePath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv</string> 
+  </void> 
+  <void property="headerPath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv.hdr</string> 
+  </void> 
+  <void property="rowCount"> 
+   <int>1</int> 
+  </void> 
+  <void property="targetTable"> 
+   <string>P2FrameMeta</string> 
+  </void> 
+ </object> 
+</java> 

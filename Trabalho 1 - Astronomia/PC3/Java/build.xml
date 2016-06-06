@@ -1,0 +1,108 @@
+<project name="PC3Java" default="compile" basedir=".">
+    <description>
+        Ant file to build and run the PC3 java experiments
+    </description>
+  <!-- set global properties for this build -->
+  <property name="workflow_src" location="info.ipaw.pc3.PSLoadWorkflow"/>
+	<property name="executable_src" location="info.ipaw.pc3.PSLoadExecutable"/>
+  <property name="build"  location="bin"/>
+  <property name="lib" location="lib"/>
+  <property name="sampledata" location="../SampleData"/>
+
+   <path id="project.class.path">
+       <pathelement path="${build}"/>
+  	   <pathelement path="${lib}/derby.jar;" />
+	   <pathelement path="${lib}/derbyclient.jar" />
+  	   <pathelement path="${lib}/derbynet.jar" />
+           
+  	   <pathelement path="${lib}/derbyrun.jar"/>
+  	   <pathelement path="${lib}/derbytools.jar"/>
+    </path>
+
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code  into ${build} -->
+    <javac srcdir="${workflow_src}" destdir="${build}">
+        <include name="info/ipaw/pc3/PSLoadWorkflow/*.java" />
+        <classpath refid="project.class.path" />
+    </javac>
+    <javac srcdir="${executable_src}" destdir="${build}">
+        <include name="info/ipaw/pc3/PSLoadExecutable/*.java" />
+        <classpath refid="project.class.path" />
+    </javac>    
+  </target>
+    
+	<target name="jar" depends="compile">
+		<jar destfile="${build}/info.ipaw.pc3.PSLoadWorkflow.jar" 
+			basedir="${build}" 
+			includes="info/ipaw/pc3/PSLoadWorkflow/**" />
+        <jar destfile="${build}/info.ipaw.pc3.PSLoadExecutable.jar" 
+            basedir="${build}" 
+            includes="info/ipaw/pc3/PSLoadExecutable/**" />		
+	</target>
+	
+  <target name="run" description="run the PSLoadWorkflow passing in command line arguments">
+       <java classname="info.ipaw.pc3.PSLoadWorkflow.LoadWorkflow">
+         <arg line="${args}"/>
+         <classpath refid="project.class.path" />
+           
+       </java>
+  </target>
+  
+  <target name="derbyShell" description="run the derby shell">
+      <java jar="${lib}/derbyrun.jar" fork="true">
+          <arg value="ij"/>
+      </java>
+  </target>
+  
+  <target name="runJ062941"  description="run with J062941 data set">
+       <java classname="info.ipaw.pc3.PSLoadWorkflow.LoadWorkflow">
+         <arg value="J062941"/>
+         <arg value="${sampledata}/J062941"/>
+         <classpath refid="project.class.path" />
+       </java>
+   </target>
+   
+     <target name="runJ062942" description="run with J062942 data set">
+       <java classname="info.ipaw.pc3.PSLoadWorkflow.LoadWorkflow">
+         <arg value="J062942"/>
+         <arg value="${sampledata}/J062941"/>
+         <classpath refid="project.class.path" />
+        </java>
+   </target>
+   
+     <target name="runJ062943" description="run with J062943 data set">
+       <java classname="info.ipaw.pc3.PSLoadWorkflow.LoadWorkflow">
+         <arg value="J062943"/>
+         <arg value="${sampledata}/J062941"/>
+         <classpath refid="project.class.path" />
+       </java>
+   </target>
+   
+     <target name="runJ062944" description="run with J062944 data set">
+       <java classname="info.ipaw.pc3.PSLoadWorkflow.LoadWorkflow">
+         <arg value="J062944"/>
+         <arg value="${sampledata}/J062941"/>
+         <classpath refid="project.class.path" />
+       </java>
+   </target>
+   
+    <target name="runJ062945" description="run with J062945 data set">
+       <java classname="info.ipaw.pc3.PSLoadWorkflow.LoadWorkflow">
+         <arg value="J0629445"/>
+         <arg value="${sampledata}/J062941"/>
+         <classpath refid="project.class.path" />
+       </java>
+   </target>
+   
+   
+   
+</project>

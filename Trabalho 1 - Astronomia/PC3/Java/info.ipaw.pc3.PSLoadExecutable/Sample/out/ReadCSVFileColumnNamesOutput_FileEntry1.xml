@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="info.ipaw.pc3.PSLoadWorkflow.LoadAppLogic$CSVFileEntry"> 
+  <void property="checksum"> 
+   <string>d41f86cdb78a9bb6871358a15912ea91</string> 
+  </void> 
+  <void property="columnNames"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>imageID</string> 
+    </void> 
+    <void method="add"> 
+     <string>frameID</string> 
+    </void> 
+    <void method="add"> 
+     <string>ccdID</string> 
+    </void> 
+    <void method="add"> 
+     <string>photoCalID</string> 
+    </void> 
+    <void method="add"> 
+     <string>filterID</string> 
+    </void> 
+    <void method="add"> 
+     <string>bias</string> 
+    </void> 
+    <void method="add"> 
+     <string>biasScat</string> 
+    </void> 
+    <void method="add"> 
+     <string>sky</string> 
+    </void> 
+    <void method="add"> 
+     <string>skyScat</string> 
+    </void> 
+    <void method="add"> 
+     <string>nDetect</string> 
+    </void> 
+    <void method="add"> 
+     <string>magSat</string> 
+    </void> 
+    <void method="add"> 
+     <string>completMag</string> 
+    </void> 
+    <void method="add"> 
+     <string>astroScat</string> 
+    </void> 
+    <void method="add"> 
+     <string>photoScat</string> 
+    </void> 
+    <void method="add"> 
+     <string>nAstRef</string> 
+    </void> 
+    <void method="add"> 
+     <string>nPhoRef</string> 
+    </void> 
+    <void method="add"> 
+     <string>nx</string> 
+    </void> 
+    <void method="add"> 
+     <string>ny</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfFwhm</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfModelID</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfSigMajor</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfSigMinor</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfTheta</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfExtra1</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfExtra2</string> 
+    </void> 
+    <void method="add"> 
+     <string>apResid</string> 
+    </void> 
+    <void method="add"> 
+     <string>dapResid</string> 
+    </void> 
+    <void method="add"> 
+     <string>detectorID</string> 
+    </void> 
+    <void method="add"> 
+     <string>qaFlags</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend1</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend2</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend3</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend4</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend5</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend6</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend7</string> 
+    </void> 
+    <void method="add"> 
+     <string>detrend8</string> 
+    </void> 
+    <void method="add"> 
+     <string>photoZero</string> 
+    </void> 
+    <void method="add"> 
+     <string>photoColor</string> 
+    </void> 
+    <void method="add"> 
+     <string>projection1</string> 
+    </void> 
+    <void method="add"> 
+     <string>projection2</string> 
+    </void> 
+    <void method="add"> 
+     <string>crval1</string> 
+    </void> 
+    <void method="add"> 
+     <string>crval2</string> 
+    </void> 
+    <void method="add"> 
+     <string>crpix1</string> 
+    </void> 
+    <void method="add"> 
+     <string>crpix2</string> 
+    </void> 
+    <void method="add"> 
+     <string>pc001001</string> 
+    </void> 
+    <void method="add"> 
+     <string>pc001002</string> 
+    </void> 
+    <void method="add"> 
+     <string>pc002001</string> 
+    </void> 
+    <void method="add"> 
+     <string>pc002002</string> 
+    </void> 
+    <void method="add"> 
+     <string>polyOrder</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x3y0</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x2y1</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x1y2</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x0y3</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x2y0</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x1y1</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca1x0y2</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x3y0</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x2y1</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x1y2</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x0y3</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x2y0</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x1y1</string> 
+    </void> 
+    <void method="add"> 
+     <string>pca2x0y2</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="filePath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2ImageMeta.csv</string> 
+  </void> 
+  <void property="headerPath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2ImageMeta.csv.hdr</string> 
+  </void> 
+  <void property="rowCount"> 
+   <int>4</int> 
+  </void> 
+  <void property="targetTable"> 
+   <string>P2ImageMeta</string> 
+  </void> 
+ </object> 
+</java> 

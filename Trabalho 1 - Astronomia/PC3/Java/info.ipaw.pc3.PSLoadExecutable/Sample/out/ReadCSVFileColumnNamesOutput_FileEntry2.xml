@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="info.ipaw.pc3.PSLoadWorkflow.LoadAppLogic$CSVFileEntry"> 
+  <void property="checksum"> 
+   <string>f8f9d70711cb3a1cb8b359d99d98fa63</string> 
+  </void> 
+  <void property="columnNames"> 
+   <object class="java.util.ArrayList"> 
+    <void method="add"> 
+     <string>objID</string> 
+    </void> 
+    <void method="add"> 
+     <string>detectID</string> 
+    </void> 
+    <void method="add"> 
+     <string>ippObjID</string> 
+    </void> 
+    <void method="add"> 
+     <string>ippDetectID</string> 
+    </void> 
+    <void method="add"> 
+     <string>filterID</string> 
+    </void> 
+    <void method="add"> 
+     <string>imageID</string> 
+    </void> 
+    <void method="add"> 
+     <string>obsTime</string> 
+    </void> 
+    <void method="add"> 
+     <string>xPos</string> 
+    </void> 
+    <void method="add"> 
+     <string>yPos</string> 
+    </void> 
+    <void method="add"> 
+     <string>xPosErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>yPosErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>instFlux</string> 
+    </void> 
+    <void method="add"> 
+     <string>instFluxErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfWidMajor</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfWidMinor</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfTheta</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfLikelihood</string> 
+    </void> 
+    <void method="add"> 
+     <string>psfCf</string> 
+    </void> 
+    <void method="add"> 
+     <string>infoFlag</string> 
+    </void> 
+    <void method="add"> 
+     <string>htmID</string> 
+    </void> 
+    <void method="add"> 
+     <string>zoneID</string> 
+    </void> 
+    <void method="add"> 
+     <string>assocDate</string> 
+    </void> 
+    <void method="add"> 
+     <string>modNum</string> 
+    </void> 
+    <void method="add"> 
+     <string>ra</string> 
+    </void> 
+    <void method="add"> 
+     <string>dec</string> 
+    </void> 
+    <void method="add"> 
+     <string>raErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>decErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>cx</string> 
+    </void> 
+    <void method="add"> 
+     <string>cy</string> 
+    </void> 
+    <void method="add"> 
+     <string>cz</string> 
+    </void> 
+    <void method="add"> 
+     <string>peakFlux</string> 
+    </void> 
+    <void method="add"> 
+     <string>calMag</string> 
+    </void> 
+    <void method="add"> 
+     <string>calMagErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>calFlux</string> 
+    </void> 
+    <void method="add"> 
+     <string>calFluxErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>calColor</string> 
+    </void> 
+    <void method="add"> 
+     <string>calColorErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>sky</string> 
+    </void> 
+    <void method="add"> 
+     <string>skyErr</string> 
+    </void> 
+    <void method="add"> 
+     <string>sgSep</string> 
+    </void> 
+    <void method="add"> 
+     <string>dataRelease</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void property="filePath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2Detection.csv</string> 
+  </void> 
+  <void property="headerPath"> 
+   <string>C:\PC3\SampleData\J062941\\P2_J062941_B001_P2fits0_20081115_P2Detection.csv.hdr</string> 
+  </void> 
+  <void property="rowCount"> 
+   <int>20</int> 
+  </void> 
+  <void property="targetTable"> 
+   <string>P2Detection</string> 
+  </void> 
+ </object> 
+</java> 

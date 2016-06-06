@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleData", "SampleData", "{83A243D5-4D31-46B1-86F8-F991C6163B12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "J062941", "J062941", "{7EC785C8-2177-4C24-A764-AA1F141BEF95}"
+	ProjectSection(SolutionItems) = preProject
+		..\SampleData\J062941\csv_ready.csv = ..\SampleData\J062941\csv_ready.csv
+		..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2Detection.csv = ..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2Detection.csv
+		..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2Detection.csv.hdr = ..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2Detection.csv.hdr
+		..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv = ..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv
+		..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv.hdr = ..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2FrameMeta.csv.hdr
+		..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2ImageMeta.csv = ..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2ImageMeta.csv
+		..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2ImageMeta.csv.hdr = ..\SampleData\J062941\P2_J062941_B001_P2fits0_20081115_P2ImageMeta.csv.hdr
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "J062942", "J062942", "{D308CB6F-2D25-43BF-A44B-208863F8B9D5}"
+	ProjectSection(SolutionItems) = preProject
+		..\SampleData\J062942\csv_ready.csv = ..\SampleData\J062942\csv_ready.csv
+		..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2Detection.csv = ..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2Detection.csv
+		..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2Detection.csv.hdr = ..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2Detection.csv.hdr
+		..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2FrameMeta.csv = ..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2FrameMeta.csv
+		..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2FrameMeta.csv.hdr = ..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2FrameMeta.csv.hdr
+		..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2ImageMeta.csv = ..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2ImageMeta.csv
+		..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2ImageMeta.csv.hdr = ..\SampleData\J062942\P2_J062942_B001_P2fits0_20081115_P2ImageMeta.csv.hdr
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "J062943", "J062943", "{0016EDF9-6129-4246-8C02-142B0BB72F2A}"
+	ProjectSection(SolutionItems) = preProject
+		..\SampleData\J062943\csv_ready.csv = ..\SampleData\J062943\csv_ready.csv
+		..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2Detection.csv = ..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2Detection.csv
+		..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2Detection.csv.hdr = ..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2Detection.csv.hdr
+		..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2FrameMeta.csv = ..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2FrameMeta.csv
+		..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2FrameMeta.csv.hdr = ..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2FrameMeta.csv.hdr
+		..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2ImageMeta.csv = ..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2ImageMeta.csv
+		..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2ImageMeta.csv.hdr = ..\SampleData\J062943\P2_J062943_B001_P2fits0_20081115_P2ImageMeta.csv.hdr
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{4D114E3F-FCA2-42D7-AEBA-C7BE08C5D076}"
+	ProjectSection(SolutionItems) = preProject
+		..\SQL\CreateLoadDB.sql = ..\SQL\CreateLoadDB.sql
+		..\SQL\UpdateLoadDB-Derby.sql = ..\SQL\UpdateLoadDB-Derby.sql
+		..\SQL\UpdateLoadDB-MSSQL.sql = ..\SQL\UpdateLoadDB-MSSQL.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "info.ipaw.pc3.PSLoadWorkflow", "info.ipaw.pc3.PSLoadWorkflow\info.ipaw.pc3.PSLoadWorkflow.csproj", "{F3C38F6B-C198-4246-B07E-EED13863552B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "J062944", "J062944", "{FBE6AF69-62F2-448C-8122-406D6E8D17BA}"
+	ProjectSection(SolutionItems) = preProject
+		..\SampleData\J062944\csv_ready.csv = ..\SampleData\J062944\csv_ready.csv
+		..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2Detection.csv = ..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2Detection.csv
+		..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2Detection.csv.hdr = ..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2Detection.csv.hdr
+		..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2FrameMeta.csv = ..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2FrameMeta.csv
+		..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2FrameMeta.csv.hdr = ..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2FrameMeta.csv.hdr
+		..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2ImageMeta.csv = ..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2ImageMeta.csv
+		..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2ImageMeta.csv.hdr = ..\SampleData\J062944\P2_J062944_B001_P2fits0_20081115_P2ImageMeta.csv.hdr
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "J062945", "J062945", "{058642B2-FD27-49B4-AA97-DF461C45C6E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\SampleData\J062945\csv_ready.csv = ..\SampleData\J062945\csv_ready.csv
+		..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2Detection.csv = ..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2Detection.csv
+		..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2Detection.csv.hdr = ..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2Detection.csv.hdr
+		..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2FrameMeta.csv = ..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2FrameMeta.csv
+		..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2FrameMeta.csv.hdr = ..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2FrameMeta.csv.hdr
+		..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2ImageMeta.csv = ..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2ImageMeta.csv
+		..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2ImageMeta.csv.hdr = ..\SampleData\J062945\P2_J062945_B001_P2fits0_20081115_P2ImageMeta.csv.hdr
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "info.ipaw.pc3.PSLoadExecutable", "info.ipaw.pc3.PSLoadExecutable\info.ipaw.pc3.PSLoadExecutable.csproj", "{9C0A304E-3CD8-4A0E-B167-10486636B2EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C38F6B-C198-4246-B07E-EED13863552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C38F6B-C198-4246-B07E-EED13863552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C38F6B-C198-4246-B07E-EED13863552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C38F6B-C198-4246-B07E-EED13863552B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0A304E-3CD8-4A0E-B167-10486636B2EB}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0A304E-3CD8-4A0E-B167-10486636B2EB}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{9C0A304E-3CD8-4A0E-B167-10486636B2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0A304E-3CD8-4A0E-B167-10486636B2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EC785C8-2177-4C24-A764-AA1F141BEF95} = {83A243D5-4D31-46B1-86F8-F991C6163B12}
+		{D308CB6F-2D25-43BF-A44B-208863F8B9D5} = {83A243D5-4D31-46B1-86F8-F991C6163B12}
+		{0016EDF9-6129-4246-8C02-142B0BB72F2A} = {83A243D5-4D31-46B1-86F8-F991C6163B12}
+		{FBE6AF69-62F2-448C-8122-406D6E8D17BA} = {83A243D5-4D31-46B1-86F8-F991C6163B12}
+		{058642B2-FD27-49B4-AA97-DF461C45C6E8} = {83A243D5-4D31-46B1-86F8-F991C6163B12}
+	EndGlobalSection
+EndGlobal

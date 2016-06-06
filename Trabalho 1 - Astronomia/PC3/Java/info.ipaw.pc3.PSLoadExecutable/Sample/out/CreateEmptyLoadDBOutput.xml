@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="info.ipaw.pc3.PSLoadWorkflow.LoadAppLogic$DatabaseEntry"> 
+  <void property="DBGuid"> 
+   <string>83a1f1cf-87a5-409f-a476-c86bb65ea615</string> 
+  </void> 
+  <void property="DBName"> 
+   <string>J062941_LoadDB</string> 
+  </void> 
+  <void property="connectionString"> 
+   <string>jdbc:derby:;databaseName=J062941_LoadDB;user=IPAW;password=pc3_load-2009</string> 
+  </void> 
+ </object> 
+</java> 
