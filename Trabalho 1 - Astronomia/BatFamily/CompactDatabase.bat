@@ -1,3 +1,5 @@
+@ECHO OFF
+
 call PSLoadExecutable.bat CompactDatabase -f CreateEmptyLoadDBOutput.xml
 IF NOT ERRORLEVEL 0 GOTO ENDERR
 

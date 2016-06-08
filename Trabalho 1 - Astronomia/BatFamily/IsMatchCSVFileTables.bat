@@ -1,3 +1,4 @@
+@ECHO OFF
 
 call PSLoadExecutable.bat IsMatchCSVFileTables -o IsMatchCSVFileTablesOutput.xml -f ReadCSVReadyFileOutput.xml
 IF NOT ERRORLEVEL 0 GOTO ENDERR

@@ -1,4 +1,4 @@
-
+@ECHO OFF
 
 SET JOBID_INPUT=%1
 
